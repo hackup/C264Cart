@@ -2389,6 +2389,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 275.59 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 972894eb-7660-4e04-a708-4fff83ba004b)
+    (property "Reference" "C2" (at 278.511 44.5079 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 278.511 46.9321 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" (at 276.5552 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 275.59 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b74f4b12-46fb-441d-8f6f-1a6723e304e3))
+    (pin "2" (uuid d3b49943-d3e2-4dfd-97b3-e72f87fda074))
+    (instances
+      (project "C264Cart"
+        (path "/7006651b-1f52-4ff6-87a6-d875cc82c860"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "C264Cart:23128") (at 228.6 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4c83e14-71cc-48bd-8e2f-0a7f5a2e3c5b)
@@ -2441,6 +2467,31 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 275.59 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a58ee943-aab5-459a-b51e-29b56a5d184d)
+    (property "Reference" "#PWR017" (at 275.59 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 275.59 37.7769 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 275.59 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 275.59 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d8ef75c0-e6c9-465c-b159-2422695f0533))
+    (instances
+      (project "C264Cart"
+        (path "/7006651b-1f52-4ff6-87a6-d875cc82c860"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:PWR_FLAG") (at 261.62 24.13 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a60e72b3-8c81-4503-91ed-6db446dee1df)
@@ -2488,6 +2539,31 @@
       (project "C264Cart"
         (path "/7006651b-1f52-4ff6-87a6-d875cc82c860"
           (reference "J5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 275.59 49.53 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b50e0175-3eae-42f0-8374-9e70c05c24eb)
+    (property "Reference" "#PWR018" (at 275.59 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 275.59 53.6631 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 275.59 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 275.59 49.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6bd3ecfe-0a51-4f3c-820d-b5d1846afdab))
+    (instances
+      (project "C264Cart"
+        (path "/7006651b-1f52-4ff6-87a6-d875cc82c860"
+          (reference "#PWR018") (unit 1)
         )
       )
     )
