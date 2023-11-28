@@ -1672,7 +1672,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 49dc22ea-c2a0-42c9-aa16-f9ea19eb52ba)
   )
-  (label "A[0..13]" (at 177.8 39.37 180) (fields_autoplaced)
+  (label "A[0..13]" (at 175.26 36.83 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 51a7e2a4-3619-4ddd-9e99-1b269f9e8aa9)
   )
