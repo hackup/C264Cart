@@ -26,13 +26,13 @@
      showgrid="false"
      inkscape:zoom="1.4142136"
      inkscape:cx="344.00744"
-     inkscape:cy="476.2364"
+     inkscape:cy="589.37349"
      inkscape:window-width="2560"
      inkscape:window-height="1417"
      inkscape:window-x="2552"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g47458" />
   <defs
      id="defs2" />
   <g
@@ -548,10 +548,10 @@
     </g>
     <g
        id="g47458"
-       transform="translate(-33.301783,-16.089626)"
-       inkscape:export-filename="C:\Users\cg\Nextcloud\Devel\Hardware\C264Cart\media\g47458.png"
-       inkscape:export-xdpi="149.81116"
-       inkscape:export-ydpi="149.81116">
+       transform="matrix(0.70081067,0,0,0.70081067,-17.867863,49.905886)"
+       inkscape:export-filename="C:\Users\cg\Nextcloud\Devel\Hardware\C264Cart\media\caption.png"
+       inkscape:export-xdpi="93.631973"
+       inkscape:export-ydpi="93.631973">
       <rect
          style="fill:#ff0000;stroke:#ff0000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
          id="rect41271"
@@ -592,7 +592,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:'Eurostile Extended';-inkscape-font-specification:'Eurostile Extended, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px"
            x="62.302326"
            y="189.85545"
-           id="tspan41321">Close this jumper.</tspan><tspan
+           id="tspan41321">Close jumper here.</tspan><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:'Eurostile Extended';-inkscape-font-specification:'Eurostile Extended, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px"
            x="62.302326"
